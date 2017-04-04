@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-admob-mediation-mobfox" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova-plugin-admob-mediation-mobfox</name>
+    <js-module name="cordova-plugin-admob-mediation-mobfox" src="www/device.js">
+        <clobbers target="cordova.plugins.cordova-plugin-admob-mediation-mobfox" />
+    </js-module>
+	
+	<dependency id="cordova-plugin-admob-free" version="~0.8.0" />
+	
+	<platform name="android">
+		<config-file parent="/*" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        </config-file>
+		
+		<source-file src="MobFox-Android-AdMob-Adapter.jar" target-dir="libs" />
+		<source-file src="MobFox-Android-SDK-Core-3.2.5.jar" target-dir="libs" />
+	</platform>
+</plugin>

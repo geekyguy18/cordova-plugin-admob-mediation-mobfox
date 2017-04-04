@@ -1,8 +1,8 @@
 # cordova-plugin-admob-mediation-mobfox
-A Try to Build Mediation for MobFox
+A Try to Build Mediation for MobFox using
 <a href='https://github.com/ratson/cordova-plugin-admob-free'>
   cordova-plugin-admob-free
-</a>, kindly join and make this possible.
+</a> Plugin, kindly join and make this possible.
 
 MobFox SDK : https://github.com/mobfox/MobFox-Android-SDK
 

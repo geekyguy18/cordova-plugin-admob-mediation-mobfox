@@ -17,7 +17,7 @@
 			<activity android:name="com.mobfox.sdk.interstitialads.InterstitialActivity" />
 		</config-file>
 		
-		<source-file src="MobFox-Android-AdMob-Adapter.jar" target-dir="libs" />
-		<source-file src="MobFox-Android-SDK-Core-3.2.5.jar" target-dir="libs" />
+		<source-file src="src/android/MobFox-Android-AdMob-Adapter.jar" target-dir="libs" />
+		<source-file src="src/android/MobFox-Android-SDK-Core-3.2.5.jar" target-dir="libs" />
 	</platform>
 </plugin>

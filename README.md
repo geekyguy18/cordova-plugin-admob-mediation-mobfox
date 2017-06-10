@@ -4,6 +4,10 @@ A Mediation plugin for MobFox using
   cordova-plugin-admob-free
 </a> Plugin. Developers are invited to join and contribute.
 
+<h2>Add this plugin to your Cordova:</h2>
+<i>cordova plugin add https://github.com/geekyguy18/cordova-plugin-admob-mediation-mobfox.git</i>
+
+<br>
 Banner and Interstitial Ads are working properly now. Just add your <b>Inventory Hash (former Publisher ID)</b> to your AdMob Mediation Ad Sources.
 
 <h3>Inventory Hashes for Testing</h3>

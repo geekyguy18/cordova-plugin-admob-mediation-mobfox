@@ -2,7 +2,7 @@
 <plugin id="cordova-plugin-admob-mediation-mobfox" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>cordova-plugin-admob-mediation-mobfox</name>
 	
-	<dependency id="cordova-plugin-admob-free" version="~0.8.0" />
+	<dependency id="cordova-plugin-admob-free" />
 	
 	<platform name="android">
 		<config-file parent="/*" target="AndroidManifest.xml">

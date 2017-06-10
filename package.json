@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-admob-mediation-mobfox",
+  "version": "0.0.1",
+  "description": "cordova-plugin-admob-mediation-mobfox",
+  "cordova": {
+    "id": "cordova-plugin-admob-mediation-mobfox",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekyguy18/cordova-plugin-admob-mediation-mobfox.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "geekyguy18",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekyguy18/cordova-plugin-admob-mediation-mobfox/issues"
+  },
+  "homepage": "https://github.com/geekyguy18/cordova-plugin-admob-mediation-mobfox#readme"
+}
